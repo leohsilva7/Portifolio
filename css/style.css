@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #171717;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 130px;
+    color: white;
+    font-family: "Dm Sans";
+    font-size: 26px;
+    font-weight: 700;
+}
+.nav-itens{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    
+}
+.nav-itens a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 158px;
+    margin-right: 118px;
+
+}
+.foto{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    height: 450px;
+    width: 393px;
+}
+.container h1{
+    color: white;
+    font-family: "Dm Sans";
+    font-weight: 700;
+    margin-top: 182px;
+}
+.container p{
+    color: #828282;
+    font-family: "Dm Sans";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+.download {
+    background-color: #11A3AE;
+    border: none;
+    color: #171717;
+    font-size: 14px;
+    font-family: "Dm Sans";
+    font-weight: 500;
+    margin-right: 18px;
+    padding: 16px;
+    
+}
+.contato{
+    background-color: #171717;
+    border: 1px solid;
+    border-color: #333333;
+    color: white;
+    font-family: "DM Sans";
+    font-size: 14px;
+    padding: 16px;
+}
+.sobremim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sobremim h2{
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-family: "Dm Sans";
+    font-weight: 700;
+    font-size: 32px;
+}
+.sobremim p{
+    font-family: "Dm Sans";
+    color: #333333;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.redes h2{
+    color: white;
+    font-family: "Dm Sans";
+    font-size: 18px;
+    font-weight: 700;
+}
+.redes p{
+    color: #828282;
+    font-weight: 400;
+    font-family: "Dm Sans";
+    font-size: 16px;
+}
+.titulo h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Dm Sans";
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+.projetos h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.grid-projetos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+.grid-projetos h3{
+    color: white;
+    font-family: "Dm Sans";
+    font-weight: 500;
+    font-size: 18px;
+}
+.grid-projetos p{
+    color: #828282;
+    font-family: "Dm Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-projeto1{
+    background-color:#212121;
+    padding: 15px;
+    border: 1px;
+    margin-left: 44px;
+    margin-bottom: 32px;
+    border: 1px solid #333333;
+}
+.card-projeto2{
+    background-color:#212121;
+    padding: 15px;
+    border: 1px solid;
+    margin-left: 44px;
+    margin-bottom: 32px;
+    border: 1px solid #333333;
+}
+.card-projeto3{
+    background-color: #212121;
+    padding: 15px;
+    border: 1px solid;
+    margin-left: 44px;
+    margin-bottom: 32px;
+    border: 1px solid #333333;
+}
+.card-projeto4{
+    background-color:#212121;
+    padding: 15px;
+    border: 1px solid;
+    margin-left: 44px;
+    margin-bottom: 32px;
+    border: 1px solid #333333;
+}
+.card-projeto5{
+    background-color: #212121;
+    padding: 15px;
+    border: 1px solid;
+    margin-left: 44px;
+    margin-bottom: 32px;
+    border: 1px solid #333333;
+}
+.card-projeto6{
+    background-color: #212121;
+    border: 1px solid;
+    padding: 15px;
+    margin-left: 44px;
+    margin-bottom: 32px;
+    border: 1px solid #333333;
+}
+.titulo2{
+    color: white;
+    font-weight: 700;
+    font-family: "Dm Sans";
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+.servicos{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.servicos p{
+    color:#828282;
+    font-family: "Dm Sans";
+    font-weight: 500;
+    font-size: 32px;
+}
+.code{
+    width: 350px;
+    height: 240px;
+    background-color: #212121;
+    padding: 30px;
+    border: 1px solid;
+    margin-left: 44px;
+    margin-bottom: 32px;
+    border-bottom: 5px solid#11A3AE;
+    
+}
+.figma{
+
+    width: 350px;
+    height: 240px;
+    background-color: #212121;
+    padding: 15px;
+    border: 1px solid;
+    margin-left: 44px;
+    margin-bottom: 32px;
+    border-bottom: 5px solid#11A3AE;
+}
+.smartphone{
+
+    width: 350px;
+    height: 240px;
+    background-color: #212121;
+    padding: 15px;
+    border: 1px solid;
+    margin-left: 44px;
+    margin-bottom: 32px;
+    border-bottom: 5px solid#11A3AE;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Dm Sans";
+    margin-bottom: 30px;
+    margin-top: 127px;
+}
+.minhasskills{
+    display: flex;
+    justify-content: center;
+    gap: 51px;
+}
+.html{
+    height: 100px;
+    width: 100px;
+    background-color: #212121;
+    padding: 35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.css{
+    height: 100px;
+    width: 100px;
+    background-color: #212121;
+    padding: 35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.figma2{
+     height: 100px;
+    width: 100px;
+    background-color: #212121;
+    padding: 35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.js{
+     height: 100px;
+    width: 100px;
+    background-color: #212121;
+    padding: 35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.react{
+     height: 100px;
+    width: 100px;
+    background-color: #212121;
+    padding: 35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vazio{
+     height: 100px;
+    width: 100px;
+    background-color: #212121;
+    padding: 35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nome{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Dm Sans";
+    display: flex;
+    justify-content: center;
+    margin-top: 205px;
+    background-color: #212121;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
